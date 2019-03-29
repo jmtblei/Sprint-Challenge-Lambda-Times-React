@@ -18,10 +18,10 @@ const Card = props => {
 // Make sure to include PropTypes.
 Card.propTypes = {
   card: PropTypes.shape({
-  headline: PropTypes.string,
-  tab: PropTypes.string,
-  img: PropTypes.string,
-  author: PropTypes.string
+    author: PropTypes.string,
+    headline: PropTypes.string,
+    img: PropTypes.string,
+    tab: PropTypes.string
   })
 }
 
